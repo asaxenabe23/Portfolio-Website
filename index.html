@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshita Saxena - Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #1a1a2e, #16213e);
+            color: #f5f5f5;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #b0b0b0;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: #ff4c60;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff8ba0;
+        }
+
+        section {
+            background: #1f1f3d;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            border-bottom: 2px solid #ff4c60;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: #ff4c60;
+        }
+
+        img {
+            border-radius: 50%;
+            border: 3px solid #ff4c60;
+            margin-left: 20px;
+        }
+
+        #about div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #292950;
+        }
+
+        th, td {
+            border: 1px solid #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ff4c60;
+            color: white;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        ul li, ol li {
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            font-size: 0.9em;
+            color: #b0b0b0;
+        }
+
+        .project-link {
+            color: #ff4c60;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Akshita Saxena</h1>
+        <p>Web Developer | Designer | Problem Solver</p>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div>
+            <p>Hello! My name is <strong>Akshita Saxena</strong>. I am a passionate web developer with a love for
+                creating user-friendly and visually appealing websites. I enjoy working with
+                <b>HTML</b>, <i>CSS</i>, and JavaScript to bring ideas to life. My goal is to make
+                technology accessible and enjoyable for everyone.</p>
+            <img src="Myself.jpeg" alt="Akshita's Photo" width="150" height="150">
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td rowspan="2">B.Tech</td>
+                <td>Thapar Institute of Engineering and Technology</td>
+                <td>2023</td>
+                <td>A+</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Senior Secondary</td>
+                <td>Ryan International School</td>
+                <td>2023</td>
+                <td>92.8%</td>
+            </tr>
+            <tr>
+                <td>High School</td>
+                <td>Ryan International School</td>
+                <td>2021</td>
+                <td>94.6%</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Python</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ol>
+            <li>Personal Portfolio Website</li>
+            <li>Weather App</li>
+        </ol>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:akshita28saxena@gmail.com" class="project-link">akshita28saxena@gmail.com</a></p>
+        <p>
+            <a href="https://linkedin.com" target="_blank" class="project-link">LinkedIn</a> |
+            <a href="https://github.com" target="_blank" class="project-link">GitHub</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>Made with ❤️ by Akshita Saxena</p>
+    </footer>
+
+</body>
+</html>
